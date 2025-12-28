@@ -26,6 +26,7 @@ BasicGame.Boot.prototype = {
             this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
 
             this.scale.pageAlignHorizontally = true;
+            this.scale.pageAlignVertically = true;
         }
         else
         {
@@ -37,6 +38,7 @@ BasicGame.Boot.prototype = {
             this.scale.maxHeight = 1000;
             this.scale.forceLandscape = false;
             this.scale.pageAlignHorizontally = true;
+            this.scale.pageAlignVertically = true;
         }
 
         this.scale.setScreenSize(true);

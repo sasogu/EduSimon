@@ -28,7 +28,6 @@ BasicGame.Preloader.prototype = {
 		this.load.setPreloadSprite(this.preloadBar);
 
 		this.load.atlas('spriteset', 'assets/spriteset.png', 'assets/spriteset.jsona');
-		this.load.image('tweet','assets/twit.png');
 		this.load.audio('sfx', ['assets/sfx.mp3','assets/sfx.ogg','assets/sfx.wav','assets/sfx.m4a']);
 
 
